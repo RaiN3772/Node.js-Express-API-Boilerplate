@@ -11,12 +11,6 @@ const AuditLog = require('./AuditLog')(sequelize);
 const UserSetting = require('./UserSetting')(sequelize);
 const Token = require('./Token');
 
-// Application Models
-const Brand = require('./Brand');
-const Category = require('./Category');
-const Car = require('./Car');
-
-
 User.belongsToMany(Role, {
     through: UserRole,
     foreignKey: 'user_id',
@@ -55,13 +49,6 @@ AuditLog.belongsTo(User, { foreignKey: 'user_id' });
 User.hasMany(Token, { foreignKey: 'user_id' });
 Token.belongsTo(User, { foreignKey: 'user_id' });
 
-Brand.associate({ Category });
-Category.associate({ Brand });
-
-User.hasMany(Car, { foreignKey: 'user_id', as: 'cars' });
-Category.hasMany(Car, { foreignKey: 'category_id', as: 'cars' });
-
-
 module.exports = {
     User,
     Role,
@@ -72,7 +59,4 @@ module.exports = {
     UserSetting,
     AuthAttempt,
     Token,
-    Brand,
-    Category,
-    Car
 };
