@@ -1,0 +1,90 @@
+{
+	"validation": {
+		"full_name_length": "يجب أن يكون الاسم الكامل بين 3 و 50 حرفًا.",
+		"full_name_invalid_chars": "يحتوي الاسم الكامل على أحرف غير صالحة.",
+		"role_name_length": "يجب أن يكون اسم الدور بين 3 و 50 حرفًا.",
+		"email_required": "البريد الإلكتروني مطلوب.",
+		"invalid_email": "تنسيق البريد الإلكتروني غير صالح.",
+		"password_required": "كلمة المرور مطلوبة.",
+		"password_length": "يجب أن تكون كلمة المرور على الأقل %s حرفًا.",
+		"confirm_password_required": "مطلوب تأكيد كلمة المرور.",
+		"full_name_required": "الاسم الكامل مطلوب.",
+		"email_length": "يجب أن يكون البريد الإلكتروني على الأقل 320 حرفًا.",
+		"bio_length": "يجب أن تكون السيرة الذاتية على الأقل 500 حرفًا.",
+		"role_required": "الدور مطلوب.",
+		"role_length": "يجب أن يكون الدور بين 3 و 50 حرفًا.",
+		"role_description_length": "يجب أن يكون وصف الدور بين X و Y حرفًا.",
+		"old_password_required": "كلمة المرور القديمة مطلوبة.",
+		"new_password_required": "كلمة المرور الجديدة مطلوبة.",
+		"new_password_length": "يجب أن تكون كلمة المرور الجديدة على الأقل %s حرفًا.",
+		"confirm_new_password": "مطلوب تأكيد كلمة المرور الجديدة.",
+		"incorrect_credentials": "بيانات الاعتماد التي أدخلتها غير صحيحة.",
+		"email_in_use": "البريد الإلكتروني مستخدم بالفعل.",
+		"password_mismatch": "كلمة المرور وتأكيد كلمة المرور غير متطابقين.",
+		"refresh_token_required": "validation.refresh_token_required"
+	},
+	"error": {
+		"user_not_found": "المستخدم غير موجود.",
+		"role_not_found": "الدور غير موجود.",
+		"unsupported_media_type": "نوع الوسائط غير مدعوم.",
+		"invalid_email_password": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+		"invalid_operation": "عفوًا! يبدو أن هناك مشكلة في البيانات التي أدخلتها. يرجى التأكد من صحة البيانات والمحاولة مرة أخرى!",
+		"invalid_token": "error.invalid_token",
+		"invalid_or_expired_refresh_token": "error.invalid_or_expired_refresh_token",
+		"not found": "error.not found",
+		"not_found": "error.not_found",
+		"invalid_user_id": "error.invalid_user_id"
+	},
+	"email": {
+		"verify_email_subject": "يرجى التحقق من بريدك الإلكتروني.",
+		"confirm_email_subject": "يرجى تأكيد بريدك الإلكتروني."
+	},
+	"registration": {
+		"success": "تم التسجيل بنجاح."
+	},
+	"authentication": {
+		"login_failed": "فشل تسجيل الدخول.",
+		"success": "تم تسجيل الدخول بنجاح.",
+		"process_failed": "authentication.process_failed"
+	},
+	"brands": {
+		"1": "مرسيدس بنز",
+		"2": "تويوتا",
+		"3": "فيراري",
+		"4": "فولكس واجن",
+		"5": "فولفو",
+		"6": "ساب",
+		"7": "شيفروليه",
+		"8": "هيونداي",
+		"9": "دودج",
+		"10": "بورش",
+		"11": "لوتس",
+		"12": "سوزوكي",
+		"13": "فورد",
+		"14": "كاديلاك",
+		"15": "سوبارو"
+	},
+	"car": {
+		"invalid_category": "car.invalid_category",
+		"invalid_request_type": "car.invalid_request_type",
+		"invalid_price": "car.invalid_price",
+		"invalid_country_code": "car.invalid_country_code",
+		"invalid_distance": "car.invalid_distance",
+		"invalid_status": "car.invalid_status",
+		"invalid_color": "car.invalid_color",
+		"invalid_manufacturing_year": "car.invalid_manufacturing_year",
+		"invalid_structure_type": "car.invalid_structure_type",
+		"invalid_regional_specification": "car.invalid_regional_specification",
+		"invalid_transmission": "car.invalid_transmission",
+		"invalid_fuel_type": "car.invalid_fuel_type",
+		"invalid_body_condition": "car.invalid_body_condition",
+		"invalid_paint": "car.invalid_paint",
+		"invalid_insurance": "car.invalid_insurance",
+		"invalid_customs": "car.invalid_customs",
+		"invalid_license": "car.invalid_license",
+		"invalid_seats": "car.invalid_seats",
+		"invalid_wheel_drive": "car.invalid_wheel_drive",
+		"invalid_sector": "car.invalid_sector",
+		"invalid_origin": "car.invalid_origin"
+	}
+}
